@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'requestinspection'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.REQUESTINSPECTIONDEPLOYAUTH }}
+          publish-profile: ${{ secrets.PUBLISHPROFILE }}
