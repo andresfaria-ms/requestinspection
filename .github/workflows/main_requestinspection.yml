@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'requestinspection'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
